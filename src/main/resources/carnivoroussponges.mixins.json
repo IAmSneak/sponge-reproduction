@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.gmail.sneakdevs.carnivoroussponges.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "WetSpongeBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

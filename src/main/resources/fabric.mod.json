@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "carnivoroussponges",
+  "version": "${version}",
+
+  "name": "Carnivorous Sponges",
+  "description": "SPONGES ARE THE GREATEST ANIMALS",
+  "authors": [
+    "Sneak"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/carnivoroussponges/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gmail.sneakdevs.carnivoroussponges.CarnivorousSponges"
+    ]
+  },
+  "mixins": [
+    "carnivoroussponges.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.8",
+    "fabric": "*"
+  },
+  "suggests": {
+  },
+  "custom": {
+  }
+}
